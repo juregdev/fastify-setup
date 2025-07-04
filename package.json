@@ -5,8 +5,19 @@
   "types": "dist/index.d.ts",
   "author": "Jureg Dev <filipe.araujo9@outlook.com>",
   "description": "Lib to setup fastify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juregdev/fastify-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juregdev/fastify-setup/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "rimraf dist && swc src -d dist --copy-files --strip-leading-paths",
+    "postbuild": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.json"
   },
   "keywords": [
     "fastify",
@@ -21,7 +32,11 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.11.9",
     "@types/node": "^24.0.10",
+    "rimraf": "^6.0.1",
+    "tsc-alias": "^1.8.16",
     "typescript": "^5.8.3"
   },
   "dependencies": {
