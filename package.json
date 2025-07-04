@@ -5,7 +5,9 @@
   "types": "dist/index.d.ts",
   "author": "Jureg Dev <filipe.araujo9@outlook.com>",
   "description": "Lib to setup fastify",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "fastify",
     "setup",
