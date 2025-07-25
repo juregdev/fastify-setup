@@ -10,7 +10,6 @@
 		"removeComments": false,
 		"strict": true,
 		"moduleResolution": "node",
-		"types": ["vitest/globals"],
 		"esModuleInterop": true,
 		"resolveJsonModule": true,
 		"experimentalDecorators": true,
