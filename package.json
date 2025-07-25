@@ -1,5 +1,5 @@
 {
-  "name": "@juregdev/fastify-setup",
+  "name": "@filipe_barrosg/fastify-setup",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
