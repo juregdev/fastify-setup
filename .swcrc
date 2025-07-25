@@ -4,7 +4,7 @@
 	"module": {
 		"type": "commonjs"
 	},
-	"exclude": ["./tests/*", ".*\\.spec.*$", ".*\\.test.*$", ".*\\.d.*$"],
+	"exclude": ["./tests/*", ".*\\.spec.*$", ".*\\.test.*$", ".*\\.d.ts"],
 	"jsc": {
 		"externalHelpers": false,
 		"parser": {

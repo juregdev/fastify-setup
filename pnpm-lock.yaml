@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@filipe_barrosg/fastify-setup': link:../../../.local/share/pnpm/global/5/node_modules/@filipe_barrosg/fastify-setup
+
 importers:
 
   .:

@@ -1,6 +1,6 @@
 {
   "name": "@filipe_barrosg/fastify-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Jureg Dev <filipe.araujo9@outlook.com>",
